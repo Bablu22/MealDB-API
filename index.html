@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MealDB ALi</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <h2 class="text-center  bg-danger text-white w-50 mt-3 rounded mx-auto">Search Your Food</h2>
+    <!-- ---- aearch box---- -->
+    <div class="input-group w-75 mx-auto">
+        <input type="text" class="form-control p-2 rounded" placeholder="Search Your Food"
+            aria-label="Recipient's username with two button addons" id="input-feild">
+        <button class="btn btn-outline-danger" type="button" id="button" onclick="searchMeal()">Search</button>
+    </div>
+
+    <section id="meal-detail" class="card mb-3 w-50 mx-auto">
+        
+       
+    </section>
+
+
+
+    <section id="meal-result" class="row row-cols-1 row-cols-md-4 g-4 p-5" style="cursor: pointer;">
+
+    </section>
+
+    <section id="mealDiv" class="row row-cols-1 row-cols-md-4 g-4 p-5" style="cursor: pointer;">
+
+    </section>
+
+    <div class="text-center m-5" id="movie-spinner">
+        <div class="spinner-border" role="status">
+
+        </div>
+    </div>
+
+
+    
+
+
+
+
+
+
+
+
+
+    <script src="meal.js"></script>
+</body>
+
+</html>
